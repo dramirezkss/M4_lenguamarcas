@@ -34,3 +34,8 @@ h1 {
     display: inline-block;
     width: 200px;
 }
+
+.submit:hover {
+    background-color: green;
+    border-color: black;
+}
