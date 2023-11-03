@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+body {
+    background-color: grey;
+    height: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color:red;
+}
+
+.email, .apellido {
+    width: 300px;
+}
+
+#edad { 
+    width: 100px;
+}
+
+.textogrande {
+    width: 450px;
+    height: 200px;
+}
+
+.submit {
+    background-color: orange;
+    height: 70px;
+    width: 90px;
+    border-color: red;
+}
+
+#lapellido, #ledad, #lemail {
+    display: inline-block;
+    width: 200px;
+}
