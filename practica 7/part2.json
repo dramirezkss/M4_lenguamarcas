@@ -1,0 +1,80 @@
+{
+    "pokemons": [
+      {
+        "id": 1,
+        "name": "Pikachu",
+        "types": ["Electric"],
+        "weight": "6.0 kg",
+        "height": "0.4 m",
+        "stats": {
+          "speed": 90,
+          "strength": 55,
+          "precision": 90,
+          "resistance": 50
+        },
+        "moves": [
+          {
+            "name": "Thunder Shock",
+            "description": "A electric attack that never misses.",
+            "power": 40,
+            "contact": true
+          },
+          {
+            "name": "Quick Attack",
+            "description": "A quick attack that strikes first.",
+            "power": 40,
+            "contact": true
+          }
+        ],
+        "image": "https://images.wikidexcdn.net/mwuploads/wikidex/7/77/latest/20150621181250/Pikachu.png",
+        "evolutions": [
+          {
+            "id": 2,
+            "level": 22
+          },
+          {
+            "id": 25,
+            "level": 36
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Charmander",
+        "types": ["Fire"],
+        "weight": "8.5 kg",
+        "height": "0.6 m",
+        "stats": {
+          "speed": 65,
+          "strength": 60,
+          "precision": 50,
+          "resistance": 60
+        },
+        "moves": [
+          {
+            "name": "Scratch",
+            "description": "A scratch attack.",
+            "power": 40,
+            "contact": true
+          },
+          {
+            "name": "Growl",
+            "description": "A growl that lowers the opponent's speed.",
+            "power": null,
+            "contact": false
+          }
+        ],
+        "image": "https://images.wikidexcdn.net/mwuploads/wikidex/5/56/latest/20200307023245/Charmander.png",
+        "evolutions": [
+          {
+            "id": 3,
+            "level": 16
+          },
+          {
+            "id": 24,
+            "level": 36
+          }
+        ]
+      }
+    ]
+  }
