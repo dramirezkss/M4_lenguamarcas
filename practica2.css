@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto; 
+    border-collapse: collapse;
+    width: 50%;
+}
+
+caption {
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 10px;
+    border: none;
+}
+
+th {
+    background-color: lightgray;
+    text-align: center; 
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
